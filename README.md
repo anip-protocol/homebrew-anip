@@ -1,12 +1,18 @@
-# Homebrew Tap for ANIP
+# ANIP Homebrew Tap
 
-This repository is the Homebrew tap for the ANIP CLI.
-
-Install:
+Install the ANIP CLI with Homebrew:
 
 ```bash
 brew tap anip-protocol/anip
 brew install anip
 ```
 
-The `Formula/anip.rb` file is generated from the main ANIP repository release workflow after GitHub release archives and checksums are published.
+Verify the install:
+
+```bash
+anip version
+anip generate --help
+anip validate --help
+```
+
+The formula downloads signed release artifacts from `anip-protocol/anip` GitHub Releases.
