@@ -1,26 +1,26 @@
 class Anip < Formula
   desc "ANIP contract generator and validator CLI"
   homepage "https://anip.dev"
-  version "0.24.18"
+  version "0.24.19"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/anip-protocol/anip/releases/download/v0.24.18/anip_0.24.18_darwin_arm64.tar.gz"
-      sha256 "babc6316ffd58e5f4f124bc8b28d7acea37ac040ea7b2d12fbea2322fde46855"
+      url "https://github.com/anip-protocol/anip/releases/download/v0.24.19/anip_0.24.19_darwin_arm64.tar.gz"
+      sha256 "7406bb9cde6538edbf37305a0772107bf8a3afbf79727ccaeb43996019cdd361"
     else
-      url "https://github.com/anip-protocol/anip/releases/download/v0.24.18/anip_0.24.18_darwin_amd64.tar.gz"
-      sha256 "ac954b54e10c1a1092fafab2d0d90cc214af8368c6caaf81e33d4bb6156a88d0"
+      url "https://github.com/anip-protocol/anip/releases/download/v0.24.19/anip_0.24.19_darwin_amd64.tar.gz"
+      sha256 "37972e74035b03d85b87b4db68a7e80ed0a3746477704855288ec23ffb29ce0a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/anip-protocol/anip/releases/download/v0.24.18/anip_0.24.18_linux_arm64.tar.gz"
-      sha256 "7c276a4c31435fe836cfc5f2b641129860b33ff5886d1477f488ff89ffec0e64"
+      url "https://github.com/anip-protocol/anip/releases/download/v0.24.19/anip_0.24.19_linux_arm64.tar.gz"
+      sha256 "2a4ee74d51fbada478b2609f6b36cba22ea44871d9527b3d1500aae77eb4c9be"
     else
-      url "https://github.com/anip-protocol/anip/releases/download/v0.24.18/anip_0.24.18_linux_amd64.tar.gz"
-      sha256 "baf58be3495306843e29465f632f6eae6ebc38adcceee058241df079e9d4f673"
+      url "https://github.com/anip-protocol/anip/releases/download/v0.24.19/anip_0.24.19_linux_amd64.tar.gz"
+      sha256 "6ed967dacb7ad21034af7f63a28b8c5013dfcaf7183425472e3e7c57e784c46b"
     end
   end
 
